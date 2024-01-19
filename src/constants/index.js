@@ -226,7 +226,7 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'AI Image Generator',
         description: 'Developed an AI image generator where users provide a prompt to generate an image.',
-        link: 'https://github.com/priyanshutariyal02/EpicGenerator',
+        link: 'https://github.com/priyanshutariyal02/EpiGenerator',
     },
     {
         iconUrl: travel,
