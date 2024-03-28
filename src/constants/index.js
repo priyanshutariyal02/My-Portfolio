@@ -15,6 +15,7 @@ import {
     html,
     javascript,
     linkedin,
+    postgresql,
     mongodb,
     motion,
     mui,
@@ -31,8 +32,10 @@ import {
     threads,
     typescript,
     shirt,
+    timer,
     travel,
-    scraping
+    scraping,
+    todolist,
 } from "../assets/icons";
 
 export const skills = [
@@ -77,9 +80,9 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
     },
     {
         imageUrl: git,
@@ -92,35 +95,29 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
     },
-
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
+        imageUrl: postgresql,
+        name: "PostgreSQL",
+        type: "Database",
     },
     {
         imageUrl: sql,
@@ -219,21 +216,35 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Customized Outfits 3D',
         description: 'Developed a user-friendly website that allows users to customize their cloths using different customized options.Utilized advanced web development technologies, including React.js for the front- end and Three.js for 3D rendering.',
-        link: 'https://github.com/priyanshutariyal02/Customized-Outfits-3D',
+        link: 'https://github.com/priyanshutariyal02/Customize-Outfits-3D',
     },
     {
         iconUrl: aiimg,
         theme: 'btn-back-pink',
         name: 'AI Image Generator',
         description: 'Developed an AI image generator where users provide a prompt to generate an image.',
-        link: 'https://github.com/priyanshutariyal02/EpiGenerator',
+        link: 'https://github.com/priyanshutariyal02/Ai-Image-Generator',
+    },
+    {
+        iconUrl: todolist,
+        theme: 'btn-back-orange',
+        name: 'TODO List',
+        description: 'Developed an TODO List where users Add, Modify, Delete there tasks.',
+        link: 'https://github.com/priyanshutariyal02/TODO-List',
     },
     {
         iconUrl: travel,
         theme: 'btn-back-green',
-        name: 'Tours and Travel Website',
+        name: 'Tours and Travels Website',
         description: 'Developed a User-friendly website where users can book their Adi Kailash Parvat trip. The website contains some pages such as Home, Pricing, Gallery, About Us, and Booking form.',
-        link: 'https://github.com/priyanshutariyal02/Tours-and-Travel',
+        link: 'https://github.com/priyanshutariyal02/Tours-and-Travels',
+    },
+    {
+        iconUrl: timer,
+        theme: 'btn-back-yellow',
+        name: 'Timer Challenge Game',
+        description: 'This project was developed in React.js. The main purpose of this project is the use of refs and portals.. In this game, the user will see four challenges: easy, medium, hard, and pro. If the user clicks the start challenge button, the challenge will begin, and it must be stopped before the time runs out or the user will lose.',
+        link: 'https://github.com/priyanshutariyal02/Timer-Challange-Game',
     },
     {
         iconUrl: scraping,
@@ -242,4 +253,5 @@ export const projects = [
         description: 'Developed a web scrapper for extracting valuable data from various websites. Also, apply HTML parsing techniques. The tool used was the Beautiful Soup library.',
         link: 'https://github.com/priyanshutariyal02/Web-scraping-with-python',
     },
+
 ];

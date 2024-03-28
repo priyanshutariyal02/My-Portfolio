@@ -184,7 +184,7 @@ body:has(.card[data-color="green"]:hover) {
 
 
 @media screen and (max-width: 480px) {
-  .for-mob{
+  .for-mob {
     height: 0;
   }
 }

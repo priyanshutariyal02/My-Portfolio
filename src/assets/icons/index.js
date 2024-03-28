@@ -35,6 +35,9 @@ import soundoff from './soundoff.png'
 import shirt from './shirt.svg'
 import travel from './travel.png'
 import scraping from './scraping.png'
+import postgresql from './postgresql.svg'
+import todolist from './todolist.png'
+import timer from './timer.png'
 
 export {
     c,
@@ -48,6 +51,7 @@ export {
     github,
     html,
     javascript,
+    postgresql,
     mongodb,
     motion,
     mui,
@@ -73,5 +77,7 @@ export {
     soundoff,
     shirt,
     travel,
-    scraping
+    scraping,
+    todolist,
+    timer,
 }
